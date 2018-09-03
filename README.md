@@ -1,0 +1,1 @@
+The keypad resistor values can vary from one LCD 1602 Arduino shield to another. Because of this, value discrepancies need to be transfered to the existing ADC define list in 'DFR_LCD_Keypad.h' (lines 38-49) in order for our project to correctly recognise key presses.
